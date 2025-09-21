@@ -30,20 +30,20 @@ o+`        `-` ``..-:yooos-..----------..`
 
 //------------ OPTIONS TO GO FAST ------------//
 
-//#define GOTTA_GO_FAST_BUT_ZLEVELS_TOO_SLOW 1  // Only include the tiny map Devtest, no other zlevels. Boots way faster
+#define GOTTA_GO_FAST_BUT_ZLEVELS_TOO_SLOW 1  // Only include the tiny map Devtest, no other zlevels. Boots way faster
 
 //#define IM_REALLY_IN_A_FUCKING_HURRY_HERE 1  // All of the below
 
-//#define SKIP_FEA_SETUP // Skip setting up atmospheric system
-//#define SKIP_Z5_SETUP // Skip generation of mining level
-//#define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
+#define SKIP_FEA_SETUP // Skip setting up atmospheric system
+#define SKIP_Z5_SETUP // Skip generation of mining level
+#define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
 //#define SKIP_CAMERA_COVERAGE // Skip calculating security camera coverage
 //#define IM_TESTING_SHIT_STOP_BARFING_CHANGELOGS_AT_ME // Skip changelogs
-//#define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
+#define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
 
 //////--- CONVENIENCE OPTIONS FOR TESTING ETC ---//
 //#define DISABLE_DEVFILE // Don't load things defined in '__build.local.dm'. Use if you have some breaking changes in there or whatnot
-//#define DEBUG_EVERYONE_GETS_CAPTAIN_ID // all IDs are captain rank, kept separate from below options to avoid disrupting access-related tests
+#define DEBUG_EVERYONE_GETS_CAPTAIN_ID // all IDs are captain rank, kept separate from below options to avoid disrupting access-related tests
 //#define I_MEAN_ALL_ACCESS // Captain level ID's have EVERY access
 //#define NO_COOLDOWNS // disables all /datum/targetable cooldowns
 //#define BONUS_POINTS // gives a bunch of starting points to various abilities/uplinks/weapon vendors
@@ -63,8 +63,8 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define LOW_SECURITY // Deletes turrets
 //#define NO_CRITTERS // Deletes mob critters
 //#define NO_RANDOM_ROOMS // Don't generate random rooms. Random room areas will be left blank and the landmark will be visible
-//#define NO_RANDOM_EVENTS // Don't spawn random events
-//#define NO_SHUTTLE_CALLS // Don't autocall the shuttle
+#define NO_RANDOM_EVENTS // Don't spawn random events
+#define NO_SHUTTLE_CALLS // Don't autocall the shuttle
 //#define I_AM_HACKERMAN // Lets you varedit things you normally couldn't (admin holders, server config)
 //#define CHECK_MORE_RUNTIMES // Enables checking for some additional errors which might be too costly on live server
 //#define QUICK_MOB_DELETION // Enables deleting mobs with build mode right click on obj place mode
