@@ -34,10 +34,10 @@ o+`        `-` ``..-:yooos-..----------..`
 
 //#define IM_REALLY_IN_A_FUCKING_HURRY_HERE 1  // All of the below
 
-//#define SKIP_FEA_SETUP // Skip setting up atmospheric system
-//#define SKIP_Z5_SETUP // Skip generation of mining level
-//#define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
-//#define SKIP_CAMERA_COVERAGE // Skip calculating security camera coverage
+#define SKIP_FEA_SETUP // Skip setting up atmospheric system
+#define SKIP_Z5_SETUP // Skip generation of mining level
+#define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
+#define SKIP_CAMERA_COVERAGE // Skip calculating security camera coverage
 #define IM_TESTING_SHIT_STOP_BARFING_CHANGELOGS_AT_ME // Skip changelogs
 #define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
 
@@ -65,14 +65,14 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define NO_RANDOM_ROOMS // Don't generate random rooms. Random room areas will be left blank and the landmark will be visible
 #define NO_RANDOM_EVENTS // Don't spawn random events
 #define NO_SHUTTLE_CALLS // Don't autocall the shuttle
-//#define I_AM_HACKERMAN // Lets you varedit things you normally couldn't (admin holders, server config)
+#define I_AM_HACKERMAN // Lets you varedit things you normally couldn't (admin holders, server config)
 //#define CHECK_MORE_RUNTIMES // Enables checking for some additional errors which might be too costly on live server
 //#define QUICK_MOB_DELETION // Enables deleting mobs with build mode right click on obj place mode
 #define SHUT_UP_ABOUT_MY_PAY // disables PDA messages from the wagesystem
 #define FUCK_OFF_WITH_THE_MAIL // Disables random crew mail system
 #define GHOSTDRONES_ON_STRIKE // prevents ghostdrone factory objs from doing stuff
 #define STOP_BREAKING_THE_FUCKING_LIGHTS_I_WANT_TO_SEE_SHIT // Stops lights from breaking or burning out when spawning or turning on/off
-//#define NO_ANTAG_POPUPS_I_DONT_CARE // Stops antag popups from coming up at the start of every game
+#define NO_ANTAG_POPUPS_I_DONT_CARE // Stops antag popups from coming up at the start of every game
 
 //#define Z_LOG_ENABLE 1  // Enable additional world.log logging
 
