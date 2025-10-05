@@ -187,6 +187,13 @@ ABSTRACT_TYPE(/obj/item/plant/herb)
 		reagents.add_reagent("catdrugs", 40)
 		reagents.add_reagent("histamine", 40)
 
+/obj/item/plant/herb/cannabis/sea
+	name = "Seaweed"
+	crop_prefix = "sea "
+	desc = "Not for those with high blood pressure"
+	icon_state = "seaweed"
+	brew_result = list("THC"=20, "salt"=20)
+
 /obj/item/plant/herb/tobacco
 	name = "tobacco leaf"
 	desc = "A leaf from a tobacco plant. This could probably be smoked..."

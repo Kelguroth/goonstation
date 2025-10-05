@@ -635,7 +635,7 @@ ABSTRACT_TYPE(/datum/plantmutation)
 	name = "Seaweed"
 	name_prefix = "Sea "
 	iconmod = "Seaweed"
-	crop = /obj/sea_plant/seaweed
+	crop = /obj/item/plant/herb/cannabis/sea
 	infusion_reagents = list("salt")
 
 // Fungus Mutations
