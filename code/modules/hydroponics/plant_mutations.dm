@@ -631,13 +631,6 @@ ABSTRACT_TYPE(/datum/plantmutation)
 	"atropine", "ephedrine", "haloperidol","methamphetamine","THC","capsaicin","psilocybin","hairgrownium",
 	"ectoplasm","bathsalts","itching","crank","krokodil","catdrugs","histamine")
 
-/datum/plantmutation/cannabis/sea
-	name = "Seaweed"
-	name_prefix = "Sea "
-	iconmod = "Seaweed"
-	crop = /obj/item/plant/herb/cannabis/sea
-	infusion_reagents = list("salt")
-
 // Fungus Mutations
 
 /datum/plantmutation/fungus/psilocybin

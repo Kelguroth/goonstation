@@ -141,7 +141,7 @@ ABSTRACT_TYPE(/datum/plant/herb)
 	harvested_proc = TRUE
 	assoc_reagents = list("THC","CBD")
 	mutations = list(/datum/plantmutation/cannabis/rainbow,/datum/plantmutation/cannabis/death,
-	/datum/plantmutation/cannabis/white,/datum/plantmutation/cannabis/ultimate,/datum/plantmutation/cannabis/sea)
+	/datum/plantmutation/cannabis/white,/datum/plantmutation/cannabis/ultimate)
 	commuts = list(/datum/plant_gene_strain/resistance_drought,/datum/plant_gene_strain/yield/stunted)
 
 	// is it even good weed if it's not named something fucking stupid
